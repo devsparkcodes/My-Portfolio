@@ -1,0 +1,154 @@
+@media (max-width: 1024px) {
+
+    /* Navbar adjustments */
+
+    .navbar {
+        height: 8vh;
+        width: 100vw;
+    }
+
+    .nav-list-first {
+        margin-left: 50px;
+    }
+
+    .nav-list-sec {
+        margin-right: 50px;
+    }
+
+    .b-visi {
+        display: none;
+    }
+
+    /* Hero Section (First Section) */
+
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px 50px 50px 60px;
+    }
+
+    .first-half {
+        padding: 0;
+        text-align: center;
+    }
+
+    .first-half h1 {
+        font-size: 40px;
+    }
+
+    .first-half p {
+        font-size: 25px;
+    }
+
+    .second-half {
+        height: 250px;
+        width: 250px;
+    }
+
+    .second-half img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .my-project-btn {
+        padding: 15px 30px;
+    }
+
+    /* Projects Sections */
+
+    .main-container2,
+    .main-container3,
+    .main-container4,
+    .main-container5 {
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+
+    .row-rev {
+        flex-direction: column !important;
+    }
+
+    .img-box,
+    .img-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Service-section */
+
+    .services-section {
+        padding: 50px 0px 50px 0px ;
+    }
+
+    .services-container h2 {
+        font-size: 50px;
+    }
+
+    .service-intro {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .service-card {
+        width: 70%;
+        padding: 40px;
+    }
+
+    .service-card i {
+        font-size: 35px;
+    }
+
+    .service-card h3 {
+        font-size: 30px;
+    }
+
+    .service-card p {
+        font-size: 23px;
+    }
+
+    /* --- About Section --- */
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-image img {
+        width: 250px;
+    }
+
+    .about-content h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .about-content p {
+        font-size: 30px;
+    }
+
+    /* Contact Section */
+
+    .contact-container h2 {
+        font-size: 50px;
+    }
+
+    .contact-container p {
+        font-size: 30px;
+    }
+
+    .social-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-links a {
+        width: 40%;
+        padding: 20px 50px;
+    }
+}
